@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.t1 {
+  color: blue;
+}
+
+.two {
+  color: black;
+}
+
+.t11 {
+  font-family: "Limelight-Regular", sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 48px;
+  max-width: 738px;
+}
+.co {
+  background-color: #E5E5E5;
+  width: 50%;
+}
+.h1 {
+  font-size: 32px;
+  font-family: "Courgette-Regular", sans-serif;
+  margin-left: 165px;
+}
+
+.home {
+  margin-left: 79px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home1 {
+  margin-left: 21px;
+}
+
+html {
+  font-family: "Lato-Bold";
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.py-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.my-rem {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  margin-top: 95px;
+  margin-bottom: 40px;
+}
+
+.wrap {
+  display: flex;
+}
+
+.wrap .item {
+  width: 25%;
+  border: 1px solid;
+  margin: 0 20px;
+  padding: 20px;
+  box-shadow: 0px 8px 33px rgb(122, 12, 12);
+}
+
+.text {
+  margin: 50px 0;
+}
+
+.c111 {
+  font-size: 32px;
+  line-height: 38px;
+  transition: background-color 0.3s ease;
+}
+
+.l1 {
+  margin: 10px;
+}
+
+.footer:hover .l1 {
+  background-color: red;
+}
+
+h4 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.photo1 {
+  transition: transform 0.7s ease;
+}
+
+.blok02 {
+  position: relative;
+  display: inline-block;
+}
+
+.blok02:hover .photo1 {
+  transform: rotate(10deg) scale(1.2);
+}
+
+.card > img {
+  transition: filter 0.3s ease;
+}
+
+.card:hover .image {
+  filter: blur(5px);
+}
+
+.footer {
+  text-align: center;
+  position: relative;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 50px;
+  margin-top: 110px;
+}
+
+.c2 {
+  margin-bottom: 40px;
+}
+
+.blok3 {
+  background: #ffffff;
+}
+
+.wrapper .card img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.block {
+  aspect-ratio: 25/9;
+  border: 1px solid;
+  background: #d52047 url(../images/nture-3082832_960_720.jpg) no-repeat
+    center/cover;
+  color: beige;
+}
+
+.c2 {
+  margin-left: 165px;
+  padding-top: 95px;
+  color: #d52047;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h3 {
+  font-family: "Lato-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.blok02 {
+  background-color: #eff8f6;
+  margin-top: 0;
+}
+
+.content1 {
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+
+.photo1 {
+  float: right;
+  width: 50%;
+}
+
+.lor1 {
+  float: left;
+  width: 70%;
+  font-size: 24px;
+}
